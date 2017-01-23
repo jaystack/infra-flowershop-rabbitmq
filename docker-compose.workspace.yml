@@ -1,0 +1,8 @@
+version: '2'
+services:
+  rabbitmq:
+    networks:
+      - flowershop
+networks:
+  flowershop:
+    external: true
