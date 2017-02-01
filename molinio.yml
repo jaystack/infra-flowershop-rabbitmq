@@ -1,0 +1,3 @@
+commands:
+    - ls: ["ls", "-al"]
+    - git: ["git", "--version"]
